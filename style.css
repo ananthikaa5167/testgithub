@@ -1,0 +1,32 @@
+/* Style for the entire body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+}
+
+/* Style for the H1 element */
+h1 {
+    color: #4caf50; /* Green color */
+    font-size: 3rem; /* Large font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    animation: wave 1.5s infinite; /* Waving animation */
+}
+
+/* Keyframes for wave animation */
+@keyframes wave {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(5deg);
+    }
+    75% {
+        transform: rotate(-5deg);
+    }
+}
